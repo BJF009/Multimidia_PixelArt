@@ -1,0 +1,87 @@
+@font-face {
+    font-family: fontePixelArt;
+    src: url("assets/Fontes/LLPIXEL3.ttf");
+  }
+
+  @font-face {
+    font-family: fontPAHs;
+    src: url(assets/Fontes/Pixel-Regular.ttf)
+  }
+  header{
+    font-family: fontePixelArt;
+    font-size: medium;
+    font-weight: 900;
+    padding: 5px;
+    
+    
+}
+body{
+    background-image: url(assets/PixelArt/teste.png);
+    background-repeat: repeat;
+}
+main{
+    background-color: aliceblue;
+    padding: 20px;
+    min-width: 50%;
+    max-width: 1140.6px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.226);
+}
+nav{
+    background-color:  rgba(145, 121, 59, 0.26);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: fontePixelArt;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    color: aqua;
+    font-size: 50px;
+    font-family:fontePixelArt ;
+}
+
+h2{
+font-family: fontePixelArt;
+box-shadow: rgba(3, 3, 3, 0.349) 2px 2px 6px;
+text-align:justify;
+padding-left: 5px;
+border-radius: 20px;
+}
+article{
+    background-image: linear-gradient(to right, rgba(4, 0, 255, 0.37) , rgba(4, 0, 255, 0.137) ,rgba(0, 89, 255, 0.027));
+    border-radius: 20px;
+    padding-left: 10px;
+}
+ul{
+    padding:0px;
+    text-align: center;
+
+    
+}
+
+a{
+text-decoration: none;
+font-size: 25px;
+font-weight: 900;
+color: rgb(1, 4, 38);
+padding: 25px 30px;
+border-radius: 10px;
+text-align: justify;
+}
+a:hover{
+    background-color: rgba(13, 1, 121, 0.356);
+}
+footer{
+    font-weight: 900;
+}
+footer a:hover{
+    background-color: rgba(240, 248, 255, 0);
+    
+}
