@@ -23,7 +23,7 @@ main{
     background-color: aliceblue;
     padding: 20px;
     min-width: 50%;
-    max-width: 1140.6px;
+    max-width: 73%;
     margin: 0 auto;
     width: 100%;
     border-radius: 20px;
@@ -35,6 +35,7 @@ nav{
     border-radius: 10px;
     text-decoration: none;
     font-family: fontePixelArt;
+    margin: 0px;
 }
 
 h1{
@@ -49,15 +50,21 @@ h1{
 
 h2{
 font-family: fontePixelArt;
-box-shadow: rgba(3, 3, 3, 0.349) 2px 2px 6px;
 text-align:justify;
 padding-left: 5px;
 border-radius: 20px;
+}
+h3{
+    font-family: fontePixelArt;
+    text-align:justify;
+    padding-left: 5px;
+    border-radius: 20px;
 }
 article{
     background-image: linear-gradient(to right, rgba(4, 0, 255, 0.37) , rgba(4, 0, 255, 0.137) ,rgba(0, 89, 255, 0.027));
     border-radius: 20px;
     padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.137) 1px 1px 5px 1px;
 }
 ul{
     padding:0px;
@@ -78,6 +85,10 @@ text-align: justify;
 a:hover{
     background-color: rgba(13, 1, 121, 0.356);
 }
+
+a:active{
+    background-color: rgba(13, 1, 121, 0.315);
+}
 footer{
     font-weight: 900;
 }
@@ -85,3 +96,52 @@ footer a:hover{
     background-color: rgba(240, 248, 255, 0);
     
 }
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2b2a2a;
+    margin: 20px;
+    text-align: justify;
+    font-weight: 700;
+}
+.img_container{
+text-align: center;
+}
+.divh3{
+    background-image: linear-gradient(to right, rgba(4, 0, 255, 0.151) , rgba(4, 0, 255, 0.075) ,rgba(0, 89, 255, 0.027));
+    border-radius: 20px;
+    padding-left: 10px;
+}
+section{
+    margin-bottom: 20px;
+}
+.panel {
+    margin-bottom: 10px;
+    display: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.829);
+    overflow: hidden;
+}
+.accordion {
+    cursor: pointer;
+    padding: 1px;
+    margin-bottom: 10px;
+    background-color: #f1f1f100;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.6s;
+}
+strong{
+    font-family: fontePixelArt;
+    text-align:justify;
+    padding-left: 5px;
+    border-radius: 20px;
+}
+.seta {
+    position: absolute;
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+  } 

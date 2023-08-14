@@ -4,80 +4,287 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Pixel Art</title>
     <link rel="shortcut icon" href="/assets/Favicon/Favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/estilo.css">
 </head>
-
 <body>
     <header>
         <h1>Jogos em Pixel Art</h1>
-        
+
     </header>
-    <main>       
-            <nav>
-                <ul>
-                    <a href="">Pixel art</a>
-                    <a href="">Noticias Pixel Art</a>
-                    <a href="">Jogos Iconicos</a>
-                    <a href="">Galeria Pixel Art</a>
-                    <a href="">Suporte</a>
-                </ul>
-            </nav>
-            <section>
-                <article>
-                    <h2>Como surgiu</h2>
-                </article>
-            </section>
-            <section>
-                <article>
-                    <h2>Evolução do Pixel Art</h2>
-        
-                </article>
-            </section>
-            <section>
-                <article>
-                    <h2>Jogos Pioneiros De Pixel Art</h2>
-                </article>
-            </section>
-            <section>
-                <article>
-                    <h2>Técnicas e ferramentas usadas na criação de pixel art</h2>
-                </article>
-            </section>
-            <footer>
-                <div>
-                    <span>Desenvolvido por: <a href="https://www.linkedin.com/in/bruno-figueiredo98/" target="_blank" >Bruno Figueiredo</a></span>
+    <main>
+        <nav>
+            <ul>
+                <a href="index.html">Pixel art</a>
+                <a href="/src/News/news.html">Noticias Pixel Art</a>
+                <a href="/src/Games/games.html">Jogos Icônicos</a>
+                <a href="/src/Picture/picture.html">Galeria Pixel Art</a>
+                <a href="/src/Suport/suport.html">Suporte</a>
+            </ul>
+        </nav>
+
+        <section>
+            <p>Para acessar os conteúdos, basta clicar no tópico que deseja.</p>
+            <article>
+                <button class="accordion">
+                    <h2>Como surgiu ⬇ </h2>
+                </button>
+            <div class="panel">
+                    
+                            <p>A pixel arte nos videogames surgiu como uma resposta às limitações tecnológicas das primeiras plataformas
+                de hardware e software. Com resoluções de tela limitadas, capacidade de memória restrita e processadores
+                de baixo desempenho, os desenvolvedores precisavam encontrar maneiras criativas de criar gráficos para
+                os jogos. Essas restrições deram origem à técnica de pixel art, onde os gráficos eram construídos pixel
+                a pixel.</p>
+                            <div class="img_container"><img
+                    src="https://makeindiegames.com.br/wp-content/uploads/2023/06/PIXEL-ART-1320x743.jpg" width="40%"
+                    alt=""></div>
+            </div>
+            </article>
+
+        </section>
+        <section>
+            <article>
+                <button class="accordion">
+                    <h2>Evolução do Pixel Art ⬇ </h2>
+                </button>
+                <div class="panel">
+                    <div class="divh3">
+                        <h3>Fase Inicial (1970-1980):</h3>
+                    </div>
+                    <p>
+                        Nos primórdios dos videogames, a pixel art era uma necessidade devido às limitações de hardware. Os
+                        primeiros jogos, como "Pong" (1972) e "Space Invaders" (1978), apresentavam gráficos simples construídos
+                        com pixels. O foco estava em criar imagens legíveis e compreensíveis, dada a resolução limitada das
+                        telas.
+                    </p>
+                    <div class="divh3">
+                        <h3>Era 8-Bit (década de 1980):</h3>
+                    </div>
+                    <p>Com o surgimento de consoles como o NES e o Sega Master System, os desenvolvedores tiveram a oportunidade
+                        de criar gráficos mais detalhados. Jogos como "Super Mario Bros." (1985) e "The Legend of Zelda" (1986)
+                        usavam pixel art para criar mundos ricos em cores e personagens memoráveis. A paleta limitada de cores
+                        continuava a ser um desafio, mas a pixel art começou a ganhar uma estética mais refinada.</p>
+                    <div class="divh3">
+                        <h3>Era 16-Bit (década de 1990):</h3>
+                    </div>
+                    <p>A era dos consoles de 16 bits, como o SNES e o Sega Genesis, marcou um salto significativo em termos de
+                        qualidade visual. Com mais cores disponíveis e maior poder de processamento, os jogos podiam apresentar
+                        animações mais suaves e detalhes mais intrincados. Títulos como "Final Fantasy VI" (1994) e "Super
+                        Metroid" (1994) exibiam pixel art mais sofisticado.</p>
+                    <div class="divh3">
+                        <h3>Transição para 3D (final da década de 1990 - início dos anos 2000):</h3>
+                    </div>
+                    <p>Com a popularização da tecnologia 3D, muitos jogos começaram a adotar gráficos poligonais. No entanto, a
+                        pixel art continuou a influenciar jogos e a aparecer em formas híbridas, onde elementos 3D eram
+                        misturados com ambientes pixelizados. "Super Mario 64" (1996) e "Castlevania: Symphony of the Night"
+                        (1997) são exemplos de como os jogos exploraram essa transição.</p>
+                    <div class="divh3">
+                        <h3>Renascimento Indie (anos 2000 e além):</h3>
+                    </div>
+                    <p>Com o advento dos jogos indie, a pixel art viveu um renascimento. Títulos como "Braid" (2008), "Fez"
+                        (2012) e "Undertale" (2015) trouxeram a pixel art de volta ao centro das atenções. Os desenvolvedores
+                        indie abraçaram a estética pixelizada por sua simplicidade, apelo nostálgico e capacidade de criar
+                        experiências emocionais.</p>
+                    <div class="divh3">
+                        <h3>Estilos Contemporâneos (atualidade):</h3>
+                    </div>
+                    <p>Hoje, a pixel art continua a evoluir com uma variedade de estilos contemporâneos. Artistas exploram
+                        técnicas avançadas de shading, animações complexas e resoluções maiores para criar uma ampla gama de
+                        estéticas. Jogos indie e projetos de arte continuam a adotar a pixel art, muitas vezes mesclando-a com
+                        elementos modernos para criar experiências únicas.</p>
                 </div>
-            </footer>
-        </main>
+            </article>
+            
+
+        </section>
+        <section>
+            <article>
+                <button class="accordion">
+                    <h2>Jogos Pioneiros De Pixel Art ⬇ </h2>
+                </button>
+            <div class="panel">
+                    
+                            <h3 class="divh3">Jogos pioneiros que utilizaram pixel art: ⬇ </h3>
+                            <p>
+                Space Invaders (1978): Um dos primeiros jogos de tiro e um marco na história dos videogames,
+                apresentando
+                inimigos pixelizados descendo pela tela em forma de coluna.
+                            </p>
+                            <p>
+                Pac-Man (1980): Um dos jogos mais icônicos de todos os tempos, apresentando o personagem redondo amarelo
+                que
+                se movia através de um labirinto com gráficos pixelizados.
+                            </p>
+                            <p>
+                Donkey Kong (1981): Introduziu o personagem Mario (na época chamado Jumpman) em suas primeiras aventuras
+                pixel art, escalando plataformas e enfrentando obstáculos.
+                            </p>
+                            <p>
+                Super Mario Bros. (1985): Um marco na evolução da pixel art, apresentando mundos detalhados e
+                personagens
+                icônicos que ajudaram a definir a estética visual da Nintendo.
+                            </p>
+                            <p>
+                The Legend of Zelda (1986): Outra série icônica da Nintendo, apresentando uma exploração pixelizada em
+                um
+                mundo de fantasia.
+                            </p>
+                            <p>
+                Final Fantasy (1987): O primeiro jogo da famosa série de RPGs japoneses, que apresentava personagens e
+                ambientes em pixel art detalhados.
+                            </p>
+                            <p>
+                Sonic the Hedgehog (1991): A Sega também contribuiu com a pixel art, apresentando um ouriço azul
+                velocista
+                em um mundo cheio de cores vibrantes.
+                            </p>
+                            <p>
+                Chrono Trigger (1995): Um RPG atemporal da Square Enix, que utilizou pixel art para criar ambientes,
+                personagens e cenas impressionantes.
+                            </p>
+                            <p>
+                Metal Slug (1996): Um jogo de tiro e plataforma conhecido por seus gráficos detalhados e animações
+                fluidas
+                em pixel art.
+                            </p>
+                            <p>
+                Pokémon Red and Blue (1996): A série Pokémon começou com jogos em pixel art para o Game Boy,
+                apresentando
+                uma variedade de criaturas pixelizadas.
+                            </p>
+            </div>
+            </article>
+
+        </section>
+        <section>
+            <article>
+                <button class="accordion">
+                    <h2>Técnicas e ferramentas usadas na criação de pixel art ⬇</h2>
+                </button>
+                <div class="panel">
+                    <button class="accordion">
+                        <h3 class="divh3">Técnicas ⬇</h3>
+                    </button>
+                    <div class="panel">
+                        <p>
+                            Grid-Based Design: A pixel art é construída em uma grade, onde cada pixel é um bloco
+                            individual.
+                            Use essa
+                            grade para criar formas, personagens e cenários.
+                        </p>
+                        <p>
+                            Paleta de Cores Limitada: Limitar a paleta de cores ajuda a criar uma estética coesa e evita
+                            a
+                            perda de
+                            detalhes devido à limitação de resolução.
+                        </p>
+                        <p>
+                            Dithering: Dithering envolve a criação de padrões de pixels de diferentes cores para simular
+                            tons
+                            intermediários e criar a ilusão de mais detalhes.
+                        </p>
+                        <p>
+                            Antialiasing: Adicione pixels de cores intermediárias nas bordas para criar transições
+                            suaves
+                            entre áreas de
+                            diferentes cores, reduzindo os "dentes de serra".
+                        </p>
+                        <p>
+                            Animar Pixel a Pixel: Animações em pixel art são muitas vezes criadas quadro a quadro,
+                            ajustando
+                            manualmente
+                            os pixels para criar movimentos suaves.
+                        </p>
+                        <p>
+                            Referências Visuais: Use referências visuais, como fotos ou desenhos, para ajudar a criar
+                            proporções e
+                            formas precisas.
+                        </p>
+                        <p>
+                            Escalabilidade Limitada: Pixel art geralmente não escala bem para tamanhos maiores,
+                            portanto, é
+                            importante
+                            considerar o tamanho de saída ao projetar.
+                        </p>
+                    </div>
+                    <button class="accordion">
+                        <h3 class="divh3">Ferramentas ⬇</h3>
+                    </button>
+                    <div class="panel">
+                        <p>
+                            Software de Edição de Imagem: Softwares como Aseprite, GraphicsGale, Pyxel Edit e Photoshop
+                            (com
+                            técnicas
+                            específicas) são amplamente usados para criar pixel art.
+                        </p>
+
+                        <p>
+                            Tablet Gráfico: Um tablet gráfico pode ser útil para desenhar à mão os pixels e criar
+                            detalhes
+                            mais
+                            intrincados.
+                        </p>
+
+                        <p>
+                            Ferramentas de Seleção e Transformação: Ferramentas para selecionar, copiar, colar, inverter
+                            e
+                            transformar
+                            pixels são essenciais para agilizar o processo.
+                        </p>
+
+                        <p>
+                            Camadas (Layers): O uso de camadas permite criar diferentes elementos (personagens, fundos,
+                            etc.)
+                            separadamente e combiná-los.
+                        </p>
+
+                        <p>
+                            Grade e Régua: Muitos softwares de edição de imagem possuem recursos de grade e régua para
+                            ajudar a manter a
+                            precisão em sua pixel art.
+                        </p>
+
+                        <p>
+                            Exportação e Formato: Exporte suas imagens em formatos apropriados, como PNG, GIF ou BMP,
+                            mantendo a
+                            resolução e a qualidade desejadas.
+                        </p>
+
+                        <p>
+                            Ferramentas de Animação: Além de software de edição de imagem, você pode usar ferramentas de
+                            animação como o
+                            Aseprite para criar animações quadro a quadro.
+                        </p>
+                    </div>
+            </article>
+        </section>
+        <footer>
+            <div>
+                <article>
+                    <p>&copy; <strong>Desenvolvido por:</strong> <br>
+                    <a style="font-weight: 500; font-size: 18px;" href="">Bruno Figueiredo</a><br>
+                    <a style="font-weight: 500; font-size: 18px;" href="">Pedro Henrique</a></p>
+                </article>
+            </div>
+        </footer>
+    </main>
     </img>
 </body>
+<script>
+    $(document).ready(function () {
+        $(".accordion").click(function () {
+            $(this).toggleClass("active");
+            var panel = $(this).next();
+            if (panel.css("display") === "block") {
+                panel.slideUp();
+            } else {
+                panel.slideDown();
+            }
+        });
+    });
+</script>
 
 </html>
-
-<!--Home:
-
-Uma breve introdução ao seu site e ao que os visitantes podem esperar encontrar.
-Destaques dos conteúdos mais recentes ou populares do site.
-Links rápidos para os outros menus.
-História do Pixel Art:
-
-Uma seção detalhada sobre a história e evolução da pixel art, desde seus primórdios até os dias atuais.
-Exemplos de jogos famosos que foram pioneiros no uso de pixel art.
-Possivelmente, informações sobre as técnicas e ferramentas usadas na criação de pixel art ao longo do tempo.
-Jogos Icônicos:
-
-Uma lista de jogos clássicos e icônicos que fizeram uso proeminente de pixel art.
-Breve descrição sobre cada jogo e seu impacto na indústria de jogos.
-Imagens ou trechos de pixel art desses jogos.
-Galeria Pixel Art:
-
-Uma coleção de obras de pixel art criadas por você ou outros artistas, categorizadas por temas, estilos ou jogos.
-Possivelmente, uma opção para os visitantes enviarem suas próprias criações de pixel art.
-Informações sobre os artistas e técnicas usadas em cada obra.
-Suporte:
-
-Informações de contato para suporte ao usuário, caso alguém tenha problemas com o site.
-Perguntas frequentes (FAQ) sobre o site, pixel art e jogos relacionados.
-Possivelmente, um formulário de feedback para os visitantes expressarem suas opiniões e sugestões.-->
