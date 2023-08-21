@@ -1,12 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suporte</title>
     <link rel="stylesheet" href="/estilo.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="/assets/Favicon/Favicon.png" type="image/x-icon">
+    <style>
+        label{
+           font-size: 20px;
+           font-weight: 800;
+           font-family: fontePixelArt;
+           
+        }
+        .control{
+            margin-bottom: 15px;
+        }
+        button{
+            border-radius: 20px;
+            font-weight: 800;
+        }
+    </style>
     
+</head>
+
+<body>
+    <header>
+        <h1 style="font-family: fontePixelArt;">Suporte</h1>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <a href="/src/Home/index.html">Pixel art</a>
+                <a href="/src/News/news.html" >Noticias Pixel Art</a>
+                <a href="/src/Games/games.html" >Jogos Iconicos</a>
+                <a href="/src/Picture/picture.html">Galeria Pixel Art</a>
+                <a href="/src/Suport/suport.html">Suporte</a>
+            </ul>
+        </nav><br><br>
+        <section>
+            <article style="font-size: 25px; font-weight: 900; font-family: fontePixelArt; margin-bottom: 50px; color: black;">
+                <h2><strong>Fale Conosco</strong></h2>
+            </article>
+        <div class="field">
+           
+            <label class="label">Nome</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Entre com seu nome">
+            </div>
+       
+
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">O que está querendo nos dizer?</label>
+            <div class="control">
+                <div class="select">
+                    <select>
+                        <option>Selecione uma opção</option>
+                        <option>Feedback</option>
+                        <option>Ajudar com a manutenção</option>
+                        <option>Bugs</option>
+                        <option>Geral</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Digite sua mensagem</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Olá, tudo bem? Gostaria de ......."></textarea>
+            </div>
+        </div>
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link">Enviar</button>
+                <button class="button is-link is-light">Cancelar</button>
+            </div>
+            <div class="control">
+               
+            </div>
+        </div>
+        </div>
+        </section>
+    </main>
 </body>
+
 </html>

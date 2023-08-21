@@ -20,12 +20,12 @@ body{
     background-repeat: repeat;
 }
 main{
-    background-color: aliceblue;
+    background-color: rgb(226, 224, 224);
     padding: 20px;
     min-width: 50%;
     max-width: 92%;
     margin: 0 auto;
-    width: 100%;
+    width: 73%;
     border-radius: 20px;
     box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.226);
     
@@ -99,21 +99,35 @@ footer a:hover{
     
 }
 p{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
-    color: #2b2a2a;
+    color: #242323;
     margin: 20px;
     text-align: justify;
     font-weight: 700;
 }
 .img_container{
 text-align: center;
+
 }
 .divh3{
     background-image: linear-gradient(to right, rgba(4, 0, 255, 0.151) , rgba(4, 0, 255, 0.075) ,rgba(0, 89, 255, 0.027));
     border-radius: 20px;
     padding-left: 10px;
 }
+.h3class{
+    font-family: fontePixelArt;
+    text-align:justify;
+    padding-left: 5px;
+    border-radius: 20px ;
+    background-image: linear-gradient(to right, rgba(4, 0, 255, 0.185) ,rgba(0, 89, 255, 0));
+    
+}
+strong{
+    font-weight: 800px;
+}
+
+
 section{
     margin-bottom: 20px;
 }
@@ -133,6 +147,25 @@ section{
     text-align: left;
     outline: none;
     transition: 0.6s;
+}
+aside{
+   text-align: right;   
+   margin-right: 10%;
+}
+img{
+    box-shadow: rgba(0, 0, 0, 0.267) 1px 1px 3px 1px;
+}
+iframe{
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.521) 1px 2px 10px 2px;
+}
+.div-aside{
+    text-align: right;
+    font-weight: 900;
+    margin-bottom: -80px;
+    
+    
 }
 strong{
     font-family: fontePixelArt;
